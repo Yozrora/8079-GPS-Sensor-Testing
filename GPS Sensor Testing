@@ -152,9 +152,5 @@ Drives the robot to the origin, 0, 0
 This should be the middle of the field
 If it is not the middle of the field, make sure your offset is correctly coded
 ----------------------------------------------------------
-*/
-/*
-  driveToPositionX(0);
-  driveToPositionY(0);
-*/
+
 }
