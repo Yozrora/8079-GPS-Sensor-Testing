@@ -65,6 +65,13 @@ bool RemoteControlCodeEnabled = true;
 // Allows for easier use of the VEX Library
 using namespace vex;
 
+/*
+----------------------------------------------------------
+The comments are here to explain the code
+Look for these paragraphs to see the different parts of the code
+----------------------------------------------------------
+*/ 
+
 int main() {
 //Controller code, left arcade
 LeftMotor.setVelocity((Controller1.Axis3.position() + Controller1.Axis4.position()), percent);
